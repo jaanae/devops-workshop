@@ -3,6 +3,6 @@
  1. Create an IBM cloud account!
  
  
- <img src="https://github.com/jaanae/cloud login.png" width="30%" height="30%">
+ <img src="https://github.com/jaanae/cloud_login.png" width="30%" height="30%">
  2. Login to IBM Cloud.
  
