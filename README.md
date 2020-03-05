@@ -15,7 +15,7 @@
  5. Click create cluster.   
  <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/cloud_create_cluster.png" width="60%" height="60%">
 
- 6. Configure your cluster. Select free plan, default resource group and give your cluster a name.
+ 6. Configure your cluster. Select free plan, default resource group and give your cluster a name. Then click "Create" on the bottom right corner.
  <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/cloud_configure_cluster.png" width="60%" height="60%">
 
 7. 
