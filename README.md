@@ -6,7 +6,7 @@
  2. Login to IBM Cloud.
  <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/cloud_login.png" width="60%" height="60%">
  
- 3. Open burger menu.
+ 3. Open burger menu on the top left corner.
  <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/cloud_burger_menu.png" width="60%" height="60%">
 
  4. Click kubernetes.   
