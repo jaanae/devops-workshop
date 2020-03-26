@@ -21,14 +21,23 @@
 7. When your cluster has been created you can go to the kubernetes overview page.
 <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/cloud_cluster_created.png" width="60%" height="60%">
 
-8. FROM HERE ON these prolly wont go to the final workshop depending if we decide to proceed with the command line route or the GUI route... Open the kubernetes web terminal by clicking Actions -> web terminal on the upper right corner of the overview page. 
+8. >FROM HERE ON these prolly wont go to the final workshop depending if we decide to proceed with the command line route or the GUI route... 
+
+9. Following is to test that kubernetes functions properly.
+Click somewhere (need to check what button and where as I dont seem to have a screenshot) to open cluster -> nodes and then click your node.
+>image of that here!
+
+10. Find your clusters public IP address and mark it down. We'll need that later.
+<img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/cloud_external_ip.png" width="60%" height="60%">
+
+11.Back on the overview page. Open the kubernetes web terminal by clicking Actions -> web terminal on the upper right corner of the overview page. 
 <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/cloud_open_webterminal.png" width="60%" height="60%">
 
-9. A web terminal opens.
+12. A web terminal opens.
 <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/cloud_terminal.png" width="60%" height="60%">
 
-10. On the terminal type the following commands to test that kubernetes functions as it should.
+13. On the terminal type the following commands.
 >commands from the picture here
 <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/cloud_terminal_commands.png" width="60%" height="60%">
 
-11. 
+14. 
