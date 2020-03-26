@@ -40,4 +40,5 @@ Click somewhere (need to check what button and where as I dont seem to have a sc
 >commands from the picture here
 <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/cloud_terminal_commands.png" width="60%" height="60%">
 
-14. 
+14. Go to your clusters public IP address with your browser. If you see nginx welcome page, your kubernetes cluster works as intended! yay!
+>picture of the nginx welcome page here.
