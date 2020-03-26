@@ -18,4 +18,8 @@
  6. Configure your cluster. Select free plan, default resource group and give your cluster a name. Then click "Create" on the bottom right corner.
  <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/cloud_configure_cluster.png" width="60%" height="60%">
 
-7. 
+7. When your cluster has been created you can go to the kubernetes overview page.
+<img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/cloud_cluster_created.png" width="60%" height="60%">
+
+8. FROM HERE ON these prolly wont go to the final workshop depending if we decide to proceed with the command line route or the GUI route... Open the kubernetes web terminal by clicking Actions -> web terminal on the upper right corner of the overwiev page. 
+<img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/cloud_open_webterminal.png" width="60%" height="60%">
