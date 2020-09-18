@@ -1,4 +1,34 @@
- Tähän jotain jambalaa!
+ # Viikko 0
+ - Tunnareiden luonti (Eelia)
+ 
+ # Viikko 1
+  - Kirjautu OC:lle UI (Jaana)
+  - Asentaa command line toolin OC:lle (Jaana)
+  - Kirjautua Oc:llä clusteriin (Terminal) --> (Jaana)
+  - Luo projektin OC:lle (*-omanimi) (Eelia)
+  - Lataa snake imagen Developer näkymästä (Eelia)
+
+ # Viikko 2
+  Kaikki terminaalin kautta:
+   - Luo uuden projektin 
+   - Lisää ImageSteam
+   - Lisää BuildConfig
+   - Kirjoittaa deployment-config.yml 
+   - Luodaan service
+   - Luodaan route
+   
+ # Viikko 3
+  Jatkuu sama projekti  
+   - Luo volume 
+   - Luo volumeClaim
+   - 
+  
+ # Viikko 4
+  -
+ 
+ 
+ 
+ 
  
  1. Create an IBM cloud account!
  >tähän kuva tunnarin luomisesta
