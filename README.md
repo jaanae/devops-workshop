@@ -9,22 +9,23 @@
   - Lataa snake imagen Developer näkymästä (Eelia)
 
  # Viikko 2
-  Kaikki terminaalin kautta:
-   - Luo uuden projektin 
-   - Lisää ImageSteam
-   - Lisää BuildConfig
-   - Kirjoittaa deployment-config.yml 
-   - Luodaan service
-   - Luodaan route
+  * Kaikki terminaalin kautta:
+  * Gitin kautta triggeri
+   - Luo uuden projektin (Jaana)
+   - Lisää ImageSteam (Jaana)
+   - Lisää BuildConfig (Jaana)
+   - Kirjoittaa deployment-config.yml (Eelia tai Jaana)
+   - Luodaan service (Eelia tai Jaana)
+   - Luodaan route (Eelia tai Jaana)
    
  # Viikko 3
-  Jatkuu sama projekti  
+  Jatkuu sama projekti
    - Luo volume 
    - Luo volumeClaim
-   - 
-  
+   - MySQL (https://kubernetes.io/docs/tutorials/stateful-application/mysql-wordpress-persistent-volume/)
+   
  # Viikko 4
-  -
+  - Keratusviikko?
  
  
  
