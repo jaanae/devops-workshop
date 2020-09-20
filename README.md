@@ -31,7 +31,7 @@
  
  
  
- 1. To create an IBM cloud account, go to https://cloud.ibm.com/register
+ 1. To create an IBM cloud account, go to https://cloud.ibm.com/registration
  2. Type in your email and choose a password and click next.
  <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/account-information.png" width="60%" height="60%">
  
