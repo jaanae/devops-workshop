@@ -34,20 +34,23 @@
  1. To create an IBM cloud account, go to https://cloud.ibm.com/register
  2. Type in your email and choose a password and click next.
  <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/account-information.png" width="60%" height="60%">
+ 
  3. Check your email inbox for the verification code, type it to the field and click next.
  <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/email-verification-code.png" width="60%" height="60%">
+ 
  4. Enter your personal information and click next.
  <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/personal-information.png" width="60%" height="60%">
+ 
  5. Verify your information and click create account.
  <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/create-account.png" width="60%" height="60%">
+ 
  6. Read and acknowledge the policies. Click proceed.
  <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/acknowledgement.png" width="60%" height="60%">
  
+ 7. On your cloud dashboard, click your account name on the right top corner and choose "IBM Forum Helsinki".
+ <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/cloud-dashboard.png" width="60%" height="60%">
  
- 2. Login to IBM Cloud.
- <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/cloud_login.png" width="60%" height="60%">
- 
- 3. Open burger menu on the top left corner.
+ 8. 
  <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/cloud_burger_menu.png" width="60%" height="60%">
 
  4. Click kubernetes.   
