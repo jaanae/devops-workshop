@@ -59,7 +59,7 @@
  9. On the resources page, click on the "ocp43-workshop"
  <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/open-workshop.png" width="60%" height="60%">
 
- 10. You should land on the ocp43-workshop dashboard page. Your account may not have sufficient credentials to view the cluster statuses on the left hand side nor the logging and monitoring components but dont worry, those are not needed for this workshop. 
+ 10. You should land on the ocp43-workshop dashboard page. Your account may not have sufficient credentials to view the cluster statuses on the right hand side nor the logging and monitoring components but dont worry, those are not needed for this workshop. 
  - Click on the blue "OpenShift Web Console" button on the right top corner of the dashbord. 
  - Opening the openshift web console trough this link is necessary only once. This is because clicking the link triggers a script that automatically creates a useraccount for you in openshift. Afterwards you can just bookmark the openshift web console address and open it straight up without going trough the ibm cloud. 
  <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/ocp-workshop-ibm-cloud.png" width="60%" height="60%">
