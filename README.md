@@ -47,44 +47,23 @@
  6. Read and acknowledge the policies. Click proceed.
  <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/acknowledgement.png" width="60%" height="60%">
  
- After account creation, you should land on the cloud dashboard page. on this page you can view and access all ibm cloud resources that you have created or that you are collaborating in. At this point, wait until the workshop instructors have invited you to collaborate in the IBM Forum helsinki workspace in IBM Cloud. After the instructors have invited you, proceed to step 7.
+ After account creation, you should land on the cloud dashboard page. on this page you can view and access all ibm cloud resources that you have created or that you are collaborating in. 
+- At this point, wait until the workshop instructors have invited you to collaborate in the IBM Forum helsinki workspace in IBM Cloud. After the instructors have invited you, proceed to step 7.
  
  7. On your cloud dashboard, click your account name on the right top corner and choose "IBM Forum Helsinki".
  <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/cloud-dashboard.png" width="60%" height="60%">
  
- 8. 
- <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/cloud_burger_menu.png" width="60%" height="60%">
+ 8. When you have succesfully switched to the IBM Forum helsinki dashboard, you should see one cluster resource available to you on the left hand side of the dashboard. Click the "Clusters" link.
+ <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/open-clusters.png" width="60%" height="60%">
 
- 4. Click kubernetes.   
- <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/cloud_kubernetes.png" width="60%" height="60%">
+ 9. On the resources page, click on the "ocp43-workshop"
+ <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/open-workshop.png" width="60%" height="60%">
 
- 5. Click create cluster.   
- <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/cloud_create_cluster.png" width="60%" height="60%">
+ 10. You should land on the ocp43-workshop dashboard page. Your account may not have sufficient credentials to view the cluster statuses on the left hand side nor the logging and monitoring components but dont worry, those are not needed for this workshop. 
+ - Click on the blue "OpenShift Web Console" button on the right top corner of the dashbord. 
+ - Opening the openshift web console trough this link is necessary only once. This is because clicking the link triggers a script that automatically creates a useraccount for you in openshift. Afterwards you can just bookmark the openshift web console address and open it straight up without going trough the ibm cloud. 
+ <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/ocp-workshop-ibm-cloud.png" width="60%" height="60%">
 
- 6. Configure your cluster. Select free plan, default resource group and give your cluster a name. Then click "Create" on the bottom right corner.
- <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/cloud_configure_cluster.png" width="60%" height="60%">
+ 11. Now you should land on the OpenShift Web Console Dashboard page. Dont worry if you are not able to see the cluster nodes, details, status, activity or events. The account that is automatically created for you has only "edit" rights for now and thus is not sufficient to view the cluster in more detail.
+ <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/ocp-dashboard.png" width="60%" height="60%">
 
-7. When your cluster has been created you can go to the kubernetes overview page.
-<img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/cloud_cluster_created.png" width="60%" height="60%">
-
-8. >FROM HERE ON these prolly wont go to the final workshop depending if we decide to proceed with the command line route or the GUI route... 
-
-9. Following is to test that kubernetes functions properly.
-Click somewhere (need to check what button and where as I dont seem to have a screenshot) to open cluster and click nodes and then click your node.
->image of that here!
-
-10. Find your clusters public IP address and mark it down. We'll need that later.
-<img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/cloud_external_ip.png" width="60%" height="60%">
-
-11.Back on the overview page. Open the kubernetes web terminal by clicking Actions and then click web terminal on the upper right corner of the overview page.
-<img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/cloud_open_webterminal.png" width="60%" height="60%">
-
-12. A web terminal opens.
-<img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/cloud_terminal.png" width="60%" height="60%">
-
-13. On the terminal type the following commands.
->commands from the picture here
-<img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/cloud_terminal_commands.png" width="60%" height="60%">
-
-14. Go to your clusters public IP address with your browser. If you see nginx welcome page, your kubernetes cluster works as intended! yay!
->picture of the nginx welcome page here.
