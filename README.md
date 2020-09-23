@@ -67,3 +67,8 @@
  11. Now you should land on the OpenShift Web Console Dashboard page. Dont worry if you are not able to see the cluster nodes, details, status, activity or events. The account that is automatically created for you has only "edit" rights for now and thus is not sufficient to view the cluster in more detail.
  <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/ocp-dashboard.png" width="60%" height="60%">
 
+12. At this point, wait until the instructors assing more privileges for your openshift user. The new role that you will get is called "self-provisioner". The privileges of "self-provisioner" are the same as your original "edit" role but with the added rights to create, edit and delete your own openshift projects.
+- After you have been assigned as "self-provisioner", continue to the step 13.
+- You can read more about the default roles and privileges here: https://docs.openshift.com/container-platform/4.3/authentication/using-rbac.html
+
+13.
