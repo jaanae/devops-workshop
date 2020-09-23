@@ -71,4 +71,28 @@
 - After you have been assigned as "self-provisioner", continue to the step 13.
 - You can read more about the default roles and privileges here: https://docs.openshift.com/container-platform/4.3/authentication/using-rbac.html
 
-13.
+13. From the OpenShift dashboard page, click open the home menu on the lefthand side of the page and click "projects". The projects page opens. Click "Create project" on the left top side of the page to create a new project.
+ <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/projects-page.png" width="60%" height="60%">
+ 
+14. Create a new project and name it "projectname-myname". you can decide the project name yourself, a good example is "mimmitkoodaa-week1" and add your name after the project name.
+- The project name must consist of lower case alphanumeric characters or '-', and must start and end with an alphanumeric character.
+ <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/create-project.png" width="60%" height="60%">
+ 
+15. After the creation of the new project, you will land on the project dashboard page. This project will work as your own workspace for this workshop.
+- Resources in projects are isolated from other projects by default.
+ <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/project-dashboard.png" width="60%" height="60%">
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
