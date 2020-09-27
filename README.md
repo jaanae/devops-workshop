@@ -1,8 +1,4 @@
- # Viikko 0
- - Tunnareiden luonti (Eelia)
- 
- # Viikko 1
-  [Week 0 and Week 1](https://raw.githubusercontent.com/jaanae/devops-workshop/master/week1.md)
+[Week 0 and Week 1](/week1.md)
 
  # Viikko 2
   * Kaikki terminaalin kautta:
