@@ -18,7 +18,7 @@ After installing CLI you can also log in to the OpenShift cluster through the te
 
  <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/Questionmark.png" width="60%" height="60%">
 3. Click on the *Select Command Line Tool*. 
- <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/account-information.png" width="60%" height="60%">
+ <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/list.png" width="60%" height="60%">
 4. Click on the *Copy Login Command*
  <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/Command-line-tool-logged-in.png" width="60%" height="60%">
 5. Click on the * Display token*
