@@ -2,11 +2,7 @@
  - Tunnareiden luonti (Eelia)
  
  # Viikko 1
-  - Kirjautu OC:lle UI (Jaana)
-  - Asentaa command line toolin OC:lle (Jaana)
-  - Kirjautua Oc:llä clusteriin (Terminal) --> (Jaana)
-  - Luo projektin OC:lle (*-omanimi) (Eelia)
-  - Lataa snake imagen Developer näkymästä (Eelia)
+  [Week 0 and Week 1](https://raw.githubusercontent.com/jaanae/devops-workshop/master/week1.md)
 
  # Viikko 2
   * Kaikki terminaalin kautta:
