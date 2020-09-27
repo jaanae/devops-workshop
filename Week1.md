@@ -12,7 +12,6 @@
 After installing CLI you can also log in to the OpenShift cluster through the terminal. So let's do it now!
 
 1. Log in to the Openshift cluster through the interface.
-
 2. Click on the **question mark** at the top right
  <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/Questionmark.png" width="60%" height="60%">
  
@@ -28,7 +27,7 @@ After installing CLI you can also log in to the OpenShift cluster through the te
 6. Under **Log in with this token** copy the command and paste it to the terminal.
  <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/token-view.png" width="60%" height="60%">
 
-You should see the text: Lo
+You should see the text: 
 <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/Terminal.png" width="60%" height="60%">
 
 You are now succesfully logged in to the cluster. Congratulations!
