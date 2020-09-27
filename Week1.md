@@ -1,4 +1,4 @@
-*Install the OpenShift CLI (oc)*
+#Install the OpenShift CLI (oc)#
 
 [Installing the CLI on Windows](https://docs.openshift.com/container-platform/4.5/cli_reference/openshift_cli/getting-started-cli.html#cli-installing-cli-on-windows_cli-developer-commands)
 
@@ -7,7 +7,7 @@
 [Installing the CLI on Linux](https://docs.openshift.com/container-platform/4.5/cli_reference/openshift_cli/getting-started-cli.html#cli-installing-cli-on-linux_cli-developer-commands)
 
 
-Logging in to the CLI
+#Logging in to the CLI#
 
 After installing CLI you can also log in to the OpenShift cluster through the terminal. So let's do it now!
 
