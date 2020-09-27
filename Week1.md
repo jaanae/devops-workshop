@@ -69,7 +69,7 @@ Now that you have access to the cluster through the interface, it’s time to le
 
 ## Logging in to the CLI
 
-After installing CLI you can also log in to the OpenShift cluster through the terminal. So let's do it now!
+After installing CLI let's log in to the OpenShift cluster through the terminal.
 
 1. Log in to the Openshift cluster through the interface.
 2. Click on the **question mark** at the top right
