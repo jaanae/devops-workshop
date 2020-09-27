@@ -1,4 +1,4 @@
-[Week 0 and Week 1](/week1.md)
+[Week 0 and Week 1](/Week1.md)
 
  # Viikko 2
   * Kaikki terminaalin kautta:
