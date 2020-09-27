@@ -4,16 +4,6 @@
 + [Week 3](/Week3.md)
 + [Week 4](/Week4.md)
 
-# Viikko 2
-  * Kaikki terminaalin kautta:
-  * Gitin kautta triggeri
-   - Luo uuden projektin (Jaana)
-   - Lisää ImageSteam (Jaana)
-   - Lisää BuildConfig (Jaana)
-   - Kirjoittaa deployment-config.yml (Eelia tai Jaana)
-   - Luodaan service (Eelia tai Jaana)
-   - Luodaan route (Eelia tai Jaana)
-   
  # Viikko 3
   Jatkuu sama projekti
    - Luo volume 
