@@ -4,6 +4,7 @@
 + [Week 3](/Week3.md)
 + [Week 4](/Week4.md)
 
+# Viikko 2
   * Kaikki terminaalin kautta:
   * Gitin kautta triggeri
    - Luo uuden projektin (Jaana)
