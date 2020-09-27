@@ -22,7 +22,7 @@ After installing CLI you can also log in to the OpenShift cluster through the te
 4. Click on the *Copy Login Command*
  <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/account-information.png" width="60%" height="60%">
 5. Click on the * Display token*
- <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/account-information.png" width="60%" height="60%">
+ <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/Display-token.png" width="60%" height="60%">
 
 6. Under *Log in with this token* copy the command and paste it to the terminal.
  <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/account-information.png" width="60%" height="60%">
