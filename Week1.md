@@ -88,7 +88,7 @@ You are now succesfully logged in to the cluster. Congratulations!
 2. From the OpenShift dashboard page, click open the home menu on the lefthand side of the page and click "projects". The projects page opens. Click "Create project" on the left top side of the page to create a new project.
  <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/projects-page.png" width="60%" height="60%">
  
-3. Create a new project and name it "projectname-myname". you can decide the project name yourself, a good example is "mimmitkoodaa-week1" and add your name after the project name.
+3. Create a new project and name it "projectname-myname". you can decide the project name yourself, a good example is "mk-week1-<myname>". replace <myname> with your name to identify your own project workspace.
 - The project name must consist of lower case alphanumeric characters or '-', and must start and end with an alphanumeric character.
  <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/create-project.png" width="60%" height="60%">
  
@@ -96,6 +96,27 @@ You are now succesfully logged in to the cluster. Congratulations!
 - Resources in projects are isolated from other projects by default.
  <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/project-dashboard.png" width="60%" height="60%">
  
- __testi 321_
+5. Next try to create a project from the command line. If you are not already logged in to the cluster CLI, login now using the instructions from the part "Logging in to the CLI". After a succesfull login you can create a new project by running a command:
+- oc new-project mk-cli-test-<myname>
+After a succesfull project creation, the new project is automatically set as your default project.
+
+6. Next it is time to delete the project that your just created. Run the following command on the CLI to delete the project.
+- oc delete project mk-cli-test-<myname>
+ 
+ 
+## Deploying a test application
+
+As the final part of the Week 1 challenge, you will deploy a small snake javascript game from Patrick Gillespie.
+
+1. On the OpenShift dashboard. Click the **Administrator** on the left upper corner and choose **Developer**
+<img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/project-dashboard.png" width="60%" height="60%">
+
+2. On the Topology page, make sure to choose your own project from the project pulldown menu on the top left of the Topology page. After you are in your own project space, click the **From Git** button.
+<img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/project-dashboard.png" width="60%" height="60%">
+
+3. 
+
+
+
 
 
