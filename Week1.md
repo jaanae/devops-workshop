@@ -95,7 +95,6 @@ You are now succesfully logged in to the cluster. Congratulations!
 4. After the creation of the new project, you will land on the project dashboard page. This project will work as your own workspace for this workshop.
 - Resources in projects are isolated from other projects by default.
  <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/project-dashboard.png" width="60%" height="60%">
- ```testi 123 ```
- ´´´testi 321 ´´´
+ *testi 321 *
 
 
