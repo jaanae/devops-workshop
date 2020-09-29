@@ -106,15 +106,37 @@ You are now succesfully logged in to the cluster. Congratulations!
  
 ## Deploying a test application
 
-As the final part of the Week 1 challenge, you will deploy a small snake javascript game from Patrick Gillespie.
+As the final part of the Week 1 challenge, you will deploy a snake game running in a docker container.
 
 1. On the OpenShift dashboard. Click the **Administrator** on the left upper corner and choose **Developer**
-<img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/project-dashboard.png" width="60%" height="60%">
+<img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/game-developer.png" width="60%" height="60%">
 
-2. On the Topology page, make sure to choose your own project from the project pulldown menu on the top left of the Topology page. After you are in your own project space, click the **From Git** button.
-<img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/project-dashboard.png" width="60%" height="60%">
+2. On the Topology page, make sure to choose your own project from the project pulldown menu on the top left of the Topology page. 
+<img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/game-project-choose.png" width="60%" height="60%">
 
-3. 
+3. After you are in your own project space, click the **Container Image** button.
+<img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/game-from-container.png" width="60%" height="60%">
+
+4. Type **aschil/snake** to the image field name and hit enter. This will automatically fetch the snake container from aschil public docker repository.
+<img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/game-image-name.png" width="60%" height="60%">
+
+5. Scroll down the page to review the options. The General and Resources fields are automatically filled. Make sure that in the Advanced Options, the box **Create a route to the application** is checked. Then hit Create.
+- By checking the checkbox, service and route is automatically created for your application.
+- Service exposes the application interface from inside the container.
+- Route exposes the application interface to the internet so that it can be accessed online.
+- You will learn more about services and routes and how to create them manually in weeks 2 and 3.
+<img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/game-image-name.png" width="60%" height="60%">
+
+6. After hitting create, you will land back on the Topology page, now with your snake game visible in the topology of your project. If you click on your snake game, a window will open to the right side of the screen. From there you can view the containers starting. 
+- First an init container will start and initialize the snake container.
+- When the init container finishes and exits, the snake game container will start.
+- When the snake container is running, you will find the automatically created route to your application on the bottom part of the window.
+- Click the route link to access your application and enjoy the game.
+
+<img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/game-created.png" width="60%" height="60%">
+
+## You have now completed Week 1!
+
 
 
 
