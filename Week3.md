@@ -1,5 +1,17 @@
  # Viikko 3
-  Jatkuu sama projekti
+ 
+ ## Managing storage in OpenShift
+  
+  
+OpenShift uses the Kubernetes persistent volume (PV) framework to allow cluster administrators to provision persistent storage for a cluster. Developers can use persistent volume claims (PVCs) to request PV resources without having specific knowledge of the underlying storage infrastructure. In this workshop, you work as a developer and you will be using dynamically provisioned persistent volumes. In some cases the persistent volumes are not provisioned dynamically but instead they are provisioned manually by a cluster administrator. With manual provisioning, the developer creates a persistent volume claim and then the administrator will create and assing a persistent volume to bind to the claim. 
+
+reatin reclaim policy allows manual reclamation of the resource for those volume plug-ins that support i
+
+delete reclaim policy deletes both the PersistentVolume object from OpenShift Container Platform and the associated storage asset in external infrastructure, such as AWS EBS or VMware vSphere.
+
+
+
+  <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/account-information.png" width="60%" height="60%">
    - Luo volume 
    - Luo volumeClaim
    - MySQL (https://kubernetes.io/docs/tutorials/stateful-application/mysql-wordpress-persistent-volume/)
