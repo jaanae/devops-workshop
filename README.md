@@ -1,4 +1,4 @@
-# Welcome to the first Mimmitcade virtual workshop organized by IBM!
+# Welcome to the first Mimmitcode virtual workshop organized by IBM!
 
 We are really excited that we have been offered such a tremendous opportunity to get to lead this workshop.
 While the global situation does not currently allow for face-to-face workshops, we at IBM do not want this to become an obstacle.
