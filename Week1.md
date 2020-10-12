@@ -82,8 +82,8 @@ You are now succesfully logged in to the cluster. Congratulations!
  
 ## Managing projects
 
-1. At this point, wait until the instructors assing more privileges for your openshift user. The new role that you will get is called "self-provisioner". The privileges of "self-provisioner" are the same as your original "edit" role but with the added rights to create, edit and delete your own openshift projects.
-- After you have been assigned as "self-provisioner", continue to the step 13.
+1. At this point, Slack Eelia Mastosalo that you have gotten to this part of the workshop and wait until the instructors assing more privileges for your openshift user. The new role that you will get is called "self-provisioner". The privileges of "self-provisioner" are the same as your original "edit" role but with the added rights to create, edit and delete your own openshift projects.
+- After you have been assigned as "self-provisioner", continue to the next step.
 - You can read more about the default roles and privileges here: https://docs.openshift.com/container-platform/4.3/authentication/using-rbac.html
 
 2. From the OpenShift dashboard page, click open the home menu on the lefthand side of the page and click "projects". The projects page opens. Click "Create project" on the left top side of the page to create a new project.
