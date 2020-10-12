@@ -20,6 +20,7 @@
  <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/acknowledgement.png" width="60%" height="60%">
  
  After account creation, you should land on the cloud dashboard page. on this page you can view and access all ibm cloud resources that you have created or that you are collaborating in. 
+- Send the email address that you used to sign in to IBM Cloud to Eelia Mastosalo in Slack.
 - At this point, wait until the workshop instructors have invited you to collaborate in the IBM Forum helsinki workspace in IBM Cloud. After the instructors have invited you, proceed to the next step.
  
  ## Accessing the workshop OpenShift cluster
