@@ -36,8 +36,8 @@ If you click on deployment name you will seee that out applications is not runni
 <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/pod.png" width="60%" height="60%">
 <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/select-logs.png" width="60%" height="60%">
 
-2. You can see from the logs that mysql wants us to define a environment variables. So let's do that.
- + **Hint!** [Check the error from here if you can't find it](/error.png)
+2. You can see from the log that mysql wants us to define a environment variables. So let's do that.
+ + **Hint!** [Check the error from here if you can't find it](/logs.png)
 
 3. On the left side hand click on Deployment config and click on mysql image. On the upper bar click on Environment.
 Now you need add those values, which appeared in the error log.
