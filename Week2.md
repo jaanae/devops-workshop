@@ -26,7 +26,7 @@ Now let's check if our image is under Deployment Config.
 
 <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/images.png" width="60%" height="60%">
 
-You may have already noticed that when you click on the Pod then the image will look red. This is OK. Let's envestigate where there is an error.
+If you now click on the Pod and notice that out images is not running. This is OK. Let's envestigate where there is an error.
 
 <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/error.png" width="60%" height="60%">
 
