@@ -5,7 +5,7 @@
 Hint! [Create a project](/create-project.png)
 
 
-# 2. Creating a batabase
+# 2. Creating a batabase image
 1. In the upper left corner, click on Developer 
    + **Hint!** [Find a developer view](/Developer-view.png)
 
@@ -57,3 +57,19 @@ The properties need to match with mysql values.
 + WORDPRESS_DB_NAME = MYSQL_DATABASE
 
 + **Hint!** [Check the environment variables from here](/env-properties-wordpres.png)
+
+# 7. Create mysql database
+
+1. Terminal
+2. msql login
+3. SHOW TABLES
+4. CREATE TABLE = MYSQL_DATABASE
+5. SHOW TABLES
+
+# 8. Check route
+
+# 9. Configure Wordpress application
+
+# 10. Week 2 is now complited. Great Job!
+
+
