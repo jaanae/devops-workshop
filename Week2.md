@@ -46,6 +46,14 @@ Now you need add those values, which appeared in the error log.
 
 **You can choose your own values.**
 
-# 4. Configuring wordpress application to use mysql database
+# 6. Configuring wordpress application to use mysql database
 
+We also need to define following environment properties to wordpress images.
+The properties need to match with mysql values. 
 
+WORDPRESS_DB_HOST = **mysql**
+WORDPRESS_DB_USER = MYSQL_USERNAME
+WORDPRESS_DB_PASSWORD = MYSQL_ROOT_PASSWORD
+WORDPRESS_DB_NAME = MYSQL_DATABASE
+
++ **Hint!** [Check the envitonment variables from here if you can't find it](/env-properties-woordpress.png)
