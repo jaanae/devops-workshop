@@ -7,10 +7,10 @@
 
 # 2. Creating a batabase
 1. In the upper left corner, click on Developer
-<img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/Developer-view.png" width="60%" height="60%">
+<img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/Developer-view.png" width="40%" height="40%">
 
 2. On the left side hand click on Add
-<img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/Add.png" width="60%" height="60%">
+<img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/Add.png" width="40%" height="40%">
 
 3. Select Container image
 <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/Container-image.png" width="60%" height="60%">
@@ -26,7 +26,7 @@ Now let's check if our image is under Deployment Config.
 
 <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/images.png" width="60%" height="60%">
 
-If you now click on the Pod and notice that out images is not running. This is OK. Let's envestigate where there is an error.
+You may have already noticed that when you click on the Pod then the image will look red. This is OK. Let's envestigate where there is an error.
 
 <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/error.png" width="60%" height="60%">
 
