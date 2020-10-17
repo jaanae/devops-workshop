@@ -16,7 +16,7 @@ Hint! [Create a project](/create-project.png)
    + **Hint!** [Find a Container image](/Container-image.png)
 
 4. Next type mysql in the field, select Deployment config and at the bottom click on create.
-   ++ **Hint!** [Check how to fill the container-image](/Developertool-mysql-create.png)
+   + **Hint!** [Check how to fill the container-image](/Developertool-mysql-create.png)
 
 # 3. Create Wordpress image
    * Repeat steps 2 again and now pull the Wordpress image.
