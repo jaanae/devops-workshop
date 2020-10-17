@@ -21,6 +21,14 @@
 # 3. Create Wordpress image
    * Repeat steps 2 again and now pull the Wordpress image.
 
+# 4. Images
+Now let's check if our image is under Deployment Config.
+<img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/Images.png" width="60%" height="60%">
+You may have already noticed that when you click on the Pod then the image will look red. This is OK. Let's envestigate where there is an error.
+Each pod has its own logs. We get to see it when we select that Pod and click on Log.
+<img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/Pod.png" width="60%" height="60%">
+<img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/Select-logs.png" width="60%" height="60%">
+
 # 4. Configuring wordpress application to use mysql database
 
 
