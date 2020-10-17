@@ -56,4 +56,4 @@ The properties need to match with mysql values.
 + WORDPRESS_DB_PASSWORD = MYSQL_ROOT_PASSWORD
 + WORDPRESS_DB_NAME = MYSQL_DATABASE
 
-+ **Hint!** [Check the environment variables from here](/env-properties-wordpress.png)
++ **Hint!** [Check the environment variables from here](/env-properties-wordpres.png)
