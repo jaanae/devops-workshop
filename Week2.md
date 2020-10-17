@@ -6,14 +6,23 @@
 **Log in to the cluster via the terminal**
 2.  <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/image-stream.png" width="60%" height="60%">
 
-**In the upper left corner, click on Developer**
-3.  <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/BuildConfig.png" width="60%" height="60%">
 
-**Create new project**
-4.  <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/deployment-config.yml.png" width="60%" height="60%">
+**Creating a batabase**
+1. In the upper left corner, click on Developer
+<img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/developer-view.png" width="60%" height="60%">
+2. On the left side hand click on **Add**
+3. Select Container image
+4. Type mysql in the field
+5. Select Deployment config
+6. Click on create
 
-**Create new project**
-5.  <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/create-service.png" width="60%" height="60%">
+**Adding wordpress application**
+1. In the upper left corner, click on Developer
+<img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/developer-view.png" width="60%" height="60%">
+2. On the left side hand click on **Add**
+3. Select Container image
+4. Type wordpress in the field
+5. Select Deployment config
+6. Click on create
 
-**Create new project**
-6.  <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/create-route.png" width="60%" height="60%">
+**Configuring wordpress application to use mysql database**
