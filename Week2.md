@@ -44,7 +44,7 @@ Now you need add those values, which appeared in the error log.
 
 + **Hint!** [Check the envitonment variables from here if you can't find it](/env-properties.png)
 
-You can choose your own values.
+**You can choose your own values.**
 
 # 4. Configuring wordpress application to use mysql database
 
