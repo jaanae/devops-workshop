@@ -29,10 +29,19 @@ Now let's check if our image is under Deployment Config.
 If you click on deployment name you will seee that out applications is not running. This is OK for now. Let's envestigate where there is an error.
 
 <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/error.png" width="60%" height="60%">
+---
+# 5. Investigating a log
 
 Each pod has its own logs. We get to see it when we select that Pod and click on Log.
 <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/pod.png" width="60%" height="60%">
 <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/select-logs.png" width="60%" height="60%">
+
+You can see from the logs that mysql wants us to define its environment variables. So let's do that.
+
+On the left side hand click on Deployment config and click on mysql image. On the upper bar click on Environment.
+Now you need add those values, which appeared in the error log.
+
+Try do it yourself, and if you get stuck check this picture[<img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/select-logs.png" width="60%" height="60%">]
 
 # 4. Configuring wordpress application to use mysql database
 
