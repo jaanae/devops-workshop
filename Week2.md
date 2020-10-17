@@ -42,7 +42,7 @@ If you click on deployment name you will seee that out applications is not runni
 3. On the left side hand click on Deployment config and click on mysql image. On the upper bar click on Environment.
 Now you need add those values, which appeared in the error log.
 
-+ **Hint!** [Check the envitonment variables from here if you can't find it](/env-properties.png)
++ **Hint!** [Check the environment variables from here if you can't find it](/env-properties.png)
 
 **You can choose your own values.**
 
@@ -56,4 +56,4 @@ The properties need to match with mysql values.
 + WORDPRESS_DB_PASSWORD = MYSQL_ROOT_PASSWORD
 + WORDPRESS_DB_NAME = MYSQL_DATABASE
 
-+ **Hint!** [Check the envitonment variables from here](/env-properties-wordpress.png)
++ **Hint!** [Check the environment variables from here](/env-properties-wordpress.png)
