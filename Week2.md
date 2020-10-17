@@ -40,9 +40,11 @@ If you click on deployment name you will seee that out applications is not runni
  + **Hint!** [Check the error from here if you can't find it](/logs.png)
 
 3. On the left side hand click on Deployment config and click on mysql image. On the upper bar click on Environment.
-**Now you need add those values, which appeared in the error log.**
+Now you need add those values, which appeared in the error log.
 
-+ **Hint!** [Check the environment variables from here](/env-properties.png)
++ **Hint!** [Check the envitonment variables from here if you can't find it](/env-properties.png)
+
+You can choose your own values.
 
 # 4. Configuring wordpress application to use mysql database
 
