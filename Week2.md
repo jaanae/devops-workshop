@@ -11,9 +11,8 @@
 2. On the left side hand click on **Add**
 <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/Add.png" width="60%" height="60%">
 3. Select Container image
-4. Type mysql in the field
-5. Select Deployment config
-6. Click on create
+
+4. Next type mysql in the field, select Deployment config and at the bottom click on create.
 <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/Developertool-mysql-create.png" width="60%" height="60%">
 
 **3. Create Wordpress image**
