@@ -6,8 +6,9 @@
 
 2. **Creating a batabase**
 1. In the upper left corner, click on Developer
-<img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/developer-view.png" width="60%" height="60%">
+<img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/Developer-view.png" width="60%" height="60%">
 2. On the left side hand click on **Add**
+<img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/Add.png" width="60%" height="60%">
 3. Select Container image
 4. Type mysql in the field
 5. Select Deployment config
