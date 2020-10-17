@@ -29,7 +29,7 @@ Now let's check if our image is under Deployment Config.
 If you click on deployment name you will seee that out applications is not running. This is OK for now. Let's envestigate where there is an error.
 
 <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/error.png" width="60%" height="60%">
----
+
 # 5. Investigating a log
 
 1. Each pod has its own logs. We get to see it when we select that Pod and click on Log.
