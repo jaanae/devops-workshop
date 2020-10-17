@@ -14,6 +14,7 @@
 4. Type mysql in the field
 5. Select Deployment config
 6. Click on create
+<img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/Developertool-mysql-create.png" width="60%" height="60%">
 
 **3. Create Wordpress image**
    * Repeat steps 2 again and now pull the Wordpress image.
