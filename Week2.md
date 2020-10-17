@@ -21,4 +21,6 @@
 # 3. Create Wordpress image
    * Repeat steps 2 again and now pull the Wordpress image.
 
-# 4. Configuring wordpress application to use mysql database**
+# 4. Configuring wordpress application to use mysql database
+
+
