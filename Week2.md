@@ -1,6 +1,7 @@
 # Viikko 2
    
 **1. Create new project**
+
 <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/create-project.png" width="60%" height="60%">
 
 
