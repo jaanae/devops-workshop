@@ -1,0 +1,89 @@
+kind: DeploymentConfig
+apiVersion: apps.openshift.io/v1
+metadata:
+  annotations:
+    openshift.io/generated-by: OpenShiftWebConsole
+  selfLink: /apis/apps.openshift.io/v1/namespaces/jaanaweek2/deploymentconfigs/mysql
+  resourceVersion: '20090580'
+  name: mysql
+  uid: 5e452b5b-65b4-4ef8-bd69-da66b32c9912
+  creationTimestamp: '2020-10-20T09:02:03Z'
+  generation: 15
+  namespace: jaanaweek2
+  labels:
+    app: mysql
+    app.kubernetes.io/component: mysql
+    app.kubernetes.io/instance: mysql
+    app.kubernetes.io/part-of: mysql-app
+spec:
+  strategy:
+    type: Rolling
+    rollingParams:
+      updatePeriodSeconds: 1
+      intervalSeconds: 1
+      timeoutSeconds: 600
+      maxUnavailable: 25%
+      maxSurge: 25%
+    resources: {}
+    activeDeadlineSeconds: 21600
+  triggers:
+    - type: ImageChange
+      imageChangeParams:
+        automatic: true
+        containerNames:
+          - mysql
+        from:
+          kind: ImageStreamTag
+          namespace: jaanaweek2
+          name: 'mysql:latest'
+        lastTriggeredImage: >-
+          mysql@sha256:77b7e09c906615c1bb59b2e9d7703f728b1186a5a70e547ce2f1079ef4c1c5ca
+    - type: ConfigChange
+  replicas: 1
+  revisionHistoryLimit: 10
+  test: false
+  selector:
+    app: mysql
+    deploymentconfig: mysql
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: mysql
+        deploymentconfig: mysql
+      annotations:
+        openshift.io/generated-by: OpenShiftWebConsole
+    spec:
+      volumes:
+        - name: mysql-1
+          emptyDir: {}
+      containers:
+        - resources: {}
+          terminationMessagePath: /dev/termination-log
+          name: mysql
+          env:
+            - name: MYSQL_DATABASE
+              value: mysql
+            - name: MYSQL_USERNAME
+              value: root
+            - name: MYSQL_ROOT_PASSWORD
+              value: password
+          ports:
+            - containerPort: 3306
+              protocol: TCP
+            - containerPort: 33060
+              protocol: TCP
+          imagePullPolicy: IfNotPresent
+          volumeMounts:
+            - name: mysql-1
+              mountPath: /var/lib/mysql
+          terminationMessagePolicy: File
+          image: >-
+            mysql@sha256:77b7e09c906615c1bb59b2e9d7703f728b1186a5a70e547ce2f1079ef4c1c5ca
+      restartPolicy: Always
+      terminationGracePeriodSeconds: 30
+      dnsPolicy: ClusterFirst
+      securityContext:
+        runAsUser: 999
+      schedulerName: default-scheduler
+status:
