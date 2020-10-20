@@ -45,9 +45,12 @@ If you click on deployment name you will seee that out applications is not runni
  + **Hint!** [Check the error from here if you can't find it](/logs.png)
 
 3. On the left side hand click on Deployment config and click on mysql image. On the upper bar click on Environment.
-Now you need add those values, which appeared in the error log.
+Now you need to add the value, which appeared in the error log and also these two:
 
-+ **Hint!** [Check the environment variables from here if you can't find it](/env-properties.png)
+**MYSQL_DATABASE**
+**MYSQL_USERNAME**
+
++ **Hint!** [Check the environment variables from here](/env-properties.png)
 
 **You can choose your own values.**
 
