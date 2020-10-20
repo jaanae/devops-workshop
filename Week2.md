@@ -6,9 +6,9 @@ Hint! [Create a project](/create-project.png)
 
 # 2. Change namespace priviledges
 
-1. [Login to the cluster though terminal](https://github.com/jaanae/devops-workshop/blob/master/Week1.md#L58)
+1. [Login to the cluster though terminal](https://github.com/jaanae/devops-workshop/blob/master/Week1.md)
+2. Navigate to the part **Logging in to the CLI**
    
-
 # 2. Creating a batabase image
 1. In the upper left corner, click on Developer 
    + **Hint!** [Find a developer view](/Developer-view.png)
