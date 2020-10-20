@@ -45,7 +45,8 @@ If you click on deployment name you will seee that out applications is not runni
 4. Add under it following line: 
       runAsUser: 999
  
- 
++ **Hint!** [Check the yml file if you get stuck](/securityContext.png) 
+
 **Second problem:**
 
 1. Each pod has its own log. We get to see it when we select that Pod and click on Log.
