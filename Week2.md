@@ -4,6 +4,10 @@
 
 Hint! [Create a project](/create-project.png)
 
+# 2. Change namespace priviledges
+
+1. [Login to the cluster though terminal](/week1.md)
+   
 
 # 2. Creating a batabase image
 1. In the upper left corner, click on Developer 
@@ -76,8 +80,8 @@ The properties need to match with mysql values.
 # 9. Configure Wordpress application
 
 1. Select language (English)
-2. Fill the username, password, 
+2. Fill the username, password and DB name.
 
-# 10. Week 2 is now complited. Great Job!
+Congratulations Week 2 is now complited. Great Job!
 
 
