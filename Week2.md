@@ -2,13 +2,14 @@
    
 # 1. Create new project
 
-Hint! [Create a project](/create-project.png)
+First try to create project by yourself. If you get stuck check link below.
 
-# 2. Change namespace priviledges
+Hint! [Create a project](/Week1.md)
 
-1. [Login to the cluster though terminal](https://github.com/jaanae/devops-workshop/blob/master/Week1.md)
-2. Navigate to the part **Logging in to the CLI**
-   
+# 2. Ask Jaana or Eelia to change namespace priviledges
+
+[Slack channel](.slack)
+
 # 2. Creating a batabase image
 1. In the upper left corner, click on Developer 
    + **Hint!** [Find a developer view](/Developer-view.png)
