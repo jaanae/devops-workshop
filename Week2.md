@@ -6,7 +6,7 @@ Hint! [Create a project](/create-project.png)
 
 # 2. Change namespace priviledges
 
-1. [Login to the cluster though terminal](/Week1.md#L58)
+1. [Login to the cluster though terminal](https://github.com/jaanae/devops-workshop/blob/master/Week1.md#L58)
    
 
 # 2. Creating a batabase image
