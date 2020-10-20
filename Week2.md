@@ -45,7 +45,7 @@ If you click on deployment name you will seee that out applications is not runni
 4. Add under it following line: 
       runAsUser: 999
  
-+ **Hint!** [Check the yml file if you get stuck](/securityContext.png) 
++ **Hint!** [Check the yml file if you get stuck](/securityContext.yml) 
 
 **Second problem:**
 
