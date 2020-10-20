@@ -37,6 +37,17 @@ If you click on deployment name you will seee that out applications is not runni
 
 # 5. Investigating a log
 
+**First problem:**
+
+1. First navigate to the deployment config and click on mysql.
+2. Click on YAML.
+3. Find securityContext key.
+4. Add under it following line: 
+      runAsUser: 999
+ 
+ 
+**Second problem:**
+
 1. Each pod has its own log. We get to see it when we select that Pod and click on Log.
 <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/pod.png" width="60%" height="60%">
 <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/select-logs.png" width="60%" height="60%">
