@@ -6,7 +6,7 @@ Hint! [Create a project](/create-project.png)
 
 # 2. Change namespace priviledges
 
-1. [Login to the cluster though terminal](/week1.md)
+1. [Login to the cluster though terminal](/Week1.md)
    
 
 # 2. Creating a batabase image
