@@ -8,8 +8,8 @@ Hint! [Create a project](/Week1.md)
 
 # 2. Ask the instructors to change your namespace priviledges
 
-The mysql container image that this exercise uses, is built to use the user ID 999. Namespaces/projects with default privileges cannot run containers as users below the ID of 10000. The instructors will change the allowed users ID's to run containers in your namespace from the default value of 1000620000/10000 to 0/10000. This change is needed to run the mysql container as the mysql default user ID 999.
-[Slack channel](.slack)
+- The mysql container image that this exercise uses, is built to use the user ID 999. Namespaces/projects with default privileges cannot run containers as users below the ID of 10000. The instructors will change the allowed users ID's to run containers in your namespace from the default value of 1000620000/10000 to 0/10000. This change is needed to run the mysql container as the mysql default user ID 999.
+- [Slack channel](.slack)
 
 - When your namespace has new priviledges, proceed to the next step.
 
@@ -94,7 +94,7 @@ The variables need to match with the values from your mysql.
 
 1. Select language (English)
 2. Fill the username, password and DB name.
-**Try to not leave the application running without setting the username and password first. The wordpress is open to the internet and as long as there is no password set, anyone in the world can set the username and password and take control of your wordpress to do what ever evil things they want.**
+- **Try to not leave the application running without setting the username and password first. The wordpress is open to the internet and as long as there is no password set, anyone in the world can set the username and password and take control of your wordpress to do what ever evil things they want.**
 
 Congratulations Week 2 is now complited. Great Job!
 
