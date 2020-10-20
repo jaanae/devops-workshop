@@ -6,9 +6,13 @@ First try to create project by yourself. If you get stuck check link below.
 
 Hint! [Create a project](/Week1.md)
 
-# 2. Ask Jaana or Eelia to change namespace priviledges
+# 2. Ask the instructors to change your namespace priviledges
 
+The mysql container image that this exercise uses, is built to use the root user. Namespaces/projects with default privileges cannot run containers as root.
+In production environments the containers are built to use non root users to ensure better security, but using root users for demos and exercises is ok.
 [Slack channel](.slack)
+
+- When your namespace has escalated priviledges, proceed to the next step.
 
 # 2. Creating a batabase image
 1. In the upper left corner, click on Developer 
@@ -64,7 +68,6 @@ Now you need to add the value, which appeared in the error log and also these tw
 
 + **Hint!** [Check the environment variables from here](/env-properties.png)
 
-**You can choose your own values.**
 
 # 6. Configuring wordpress application to use mysql database
 
@@ -78,22 +81,12 @@ The properties need to match with mysql values.
 
 + **Hint!** [Check the environment variables from here](/env-properties-wordpres.png)
 
-# 7. Create mysql database
 
-1. Click on the left side hand Pods.
-2. Click on mysql pod 
-3. Select Terminal 
-4. Login to mysql server by adding this command: **mysql -u user -p 
-   * Password is the one that you added in step 6 (MYSQL_ROOT_PASSWORD)
-5. Check databases (DB) that you already have by using this command: **SHOW DATABASES;**
-6. Now create a new DB by adding this command: **CREATE TABLE {**MYSQL_DATABASE**};**
-7. You can check now that DB was created by using this command: **SHOW DATABASES;**
-
-# 8. Check route
+# 7. Check route
 1. On the left side hand click on Networks and then Routes. 
-2. Click on the link. It will take you to the installation site. 
+2. Click on the wordpress link in the Location column. It will take you to the installation site. 
 
-# 9. Configure Wordpress application
+# 8. Configure Wordpress application
 
 1. Select language (English)
 2. Fill the username, password and DB name.
