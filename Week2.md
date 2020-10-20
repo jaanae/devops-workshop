@@ -60,15 +60,23 @@ The properties need to match with mysql values.
 
 # 7. Create mysql database
 
-1. Terminal
-2. msql login
-3. SHOW TABLES
-4. CREATE TABLE = MYSQL_DATABASE
-5. SHOW TABLES
+1. Click on the left side hand Pods.
+2. Click on mysql pod 
+3. Select Terminal 
+4. Login to mysql server by adding this command: **mysql -u user -p 
+   * Password is the one that you added in step 6 (MYSQL_ROOT_PASSWORD)
+5. Check databases (DB) that you already have by using this command: **SHOW DATABASES;**
+6. Now create a new DB by adding this command: **CREATE TABLE {**MYSQL_DATABASE**};**
+7. You can check now that DB was created by using this command: **SHOW DATABASES;**
 
 # 8. Check route
+1. On the left side hand click on Networks and then Routes. 
+2. Click on the link. It will take you to the installation site. 
 
 # 9. Configure Wordpress application
+
+1. Select language (English)
+2. Fill the username, password, 
 
 # 10. Week 2 is now complited. Great Job!
 
