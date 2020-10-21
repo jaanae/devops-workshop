@@ -96,6 +96,7 @@ The variables need to match with the values from your mysql.
 2. Fill the username, password and DB name.
 - **Try to not leave the application running without setting the username and password first. The wordpress is open to the internet and as long as there is no password set, anyone in the world can set the username and password and take control of your wordpress to do what ever evil things they want.**
 
+
 Congratulations! Week 2 is now completed. Great Job!
 
 
