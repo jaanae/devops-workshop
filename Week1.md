@@ -139,7 +139,7 @@ As the final part of the Week 1 challenge, you will deploy a snake game running 
 ## Delete your application
 
 When you are done with your new and shiny snake application, remember to delete it to save resources in our openshift cluster. Go to the projects view, find your project on the list and click on the three dots on the right beside your project name.
-<img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/project-delete.png" width="60%" height="60%">
+<img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/project-delete.png" width="100%" height="100%">
 
 You are then asked to type in the name of your project to confirm that you really want to delete it. Type it and click delete.
 <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/delete-project.png" width="60%" height="60%">
