@@ -136,6 +136,10 @@ As the final part of the Week 1 challenge, you will deploy a snake game running 
 
 <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/game-created.png" width="60%" height="60%">
 
+## Delete your application
+
+When you are done with your new and shiny snake application, remember to delete it to save resources in our openshift cluster. Go to the projects view, find your project on the list and click on the three dots on the right beside your project name.
+
 ## You have now completed Week 1!
 
 
