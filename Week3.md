@@ -83,4 +83,5 @@ The wordpress application needs persistent storage as well for the same reasons 
 
 ## If both are running and have volume type PVC, you have succesfully made your application persistent and completed week 3. Yay!
 
- 
+- If you want, you can create your own website by following the guide here: https://themeisle.com/blog/how-to-make-a-website/ Start from the **Step 3**.
+- FYI: These applications will be deleted after the course.
