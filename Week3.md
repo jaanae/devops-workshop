@@ -49,23 +49,16 @@ Last week we created a wordpress application that uses mysql as a database. The 
 
 # 2. Modify your mysql application to use persistent storage
 
-- Open the **Deployment Configs** and click mysql. 
-- Open the **YAML** tab and under the **spec: volumes:**, change the **emptyDir {}** to **persistentVolumeClaim: claimName: mysql-pvc**
+- Open the **Deployment Configs** and click mysql and open the **YAML** tab.
 - Check how to attach the local claim to a pod and more about local storage here: https://docs.openshift.com/container-platform/4.3/storage/persistent_storage/persistent-storage-local.html
 
-<details><summary>CLICK ME</summary>
+<details><summary>Click here for a hint</summary>
 <p>
-
-#### yes, even hidden code blocks!
-
-```python
-print("hello world!")
-```
-
+- under **spec: volumes:**, change the **emptyDir {}** to **persistentVolumeClaim: claimName: mysql-pvc**
 </p>
 </details>
 
-   + **Hint!** [Check the correct yaml here](/mysql-yaml.png)
+   + [Check the correct yaml here](/mysql-yaml.png)
 
 - Save the deployment config and OpenShift will automatically restart the mysql application. 
 
