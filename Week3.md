@@ -43,7 +43,7 @@ Last week we created a wordpress application that uses mysql as a database. The 
 - Choose **ibm-vpc-block-retain-general-purpose** as the Storage Class. Here we choose a class with **retain** reclaim policy to keep our data intact even if the application is moved or deleted.
 - Set the name as **mysql-pvc** 
 - Set the Size as 1 GiB
-<img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/mysql-pvc.png" width="60%" height="60%">
+   + **Hint!** [Check how to create the PVC here](/mysql-pvc.png)
 
 - Wait for the PVC to change into **bound** state.
 
