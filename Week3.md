@@ -39,6 +39,7 @@ Last week we created a wordpress application that uses mysql as a database. The 
 
 - The apllication that was created last week does not have persistent storage. Let's fix that.
 - On the left side of the screen, click **Storage** -> **Persistent Volume Claims**
+- Click Create new Persistent Vlomue Claim.
 - Choose **ibm-vpc-block-retain-general-purpose** as the Storage Class. Here we choose a class with **retain** reclaim policy to keep our data intact even if the application is moved or deleted.
 - Set the name as **mysql-pvc** 
 - Set the Size as 1 GiB
