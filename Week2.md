@@ -89,7 +89,8 @@ The variables need to match with the values from your mysql.
 
 # 7. Check route
 1. On the left side hand click on **Networks > Routes**. 
-2. Click on the wordpress link in the Location column. It will take you to the ready wordpress application. 
+2. Make sure you are in your own project from the top left.
+3. Click on the wordpress link in the Location column. It will take you to the ready wordpress application. 
 
 # 8. Configure Wordpress application
 
