@@ -49,7 +49,7 @@ If you click on deployment name you will see that our application is not running
 4. Add the following line under it: 
       runAsUser: 999
  
- This will force the container to run as user ID 999.
+ This will force the container to run as user ID 999 which is the default user ID for mysql. Mysql can also be run as different user IDs but that would require modifying the container which we will leave for another course. How ever if you want to know more about modifying containerized applications you can find more information about it here: https://docs.openshift.com/container-platform/4.4/applications/application_life_cycle_management/odc-editing-applications.html
  
 + **Hint!** [Check the yml file if you get stuck](/deployment-config.yml) 
 
