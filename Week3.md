@@ -79,6 +79,7 @@ The wordpress application needs persistent storage as well for the same reasons 
 - When you have added persistent storage to mysql and wordpress, check that both of them are up and running. Restarting the applications after adding the storage can take up to 5 minutes, just be patient. 
 - Go to the **Deployment configs** page and check that both of your apps have a status: **1 out of 1 pods**.
 - Next open both applications, scroll down and check that both of them have **Volumes** type: **PVC**.
+<img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/volume-pvc.png" width="60%" height="60%">
 
 ## If both are running and have volume type PVC, you have succesfully made your application persistent and completed week 3. Yay!
 
