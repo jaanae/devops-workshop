@@ -93,11 +93,13 @@ The variables need to match with the values from your mysql.
 
 # 8. Configure Wordpress application
 
-1. Select language (English)
-2. Fill the username, password and DB name.
+1. Select language.
+2. Fill the needed credentials.
 - **Try to not leave the application running without setting the username and password first. The wordpress is open to the internet and as long as there is no password set, anyone in the world can set the username and password and take control of your wordpress to do what ever evil things they want.**
 
+- The mysql application that was created, uses Container Storage by default. Container storage is not persistent and for that reason, if the mysql container crashes for some reason, OpenShift schedules it to a different node or you modify the application, all data disappears. Next week, we will be adding persistent storage for the application. 
 
-Congratulations! Week 2 is now completed. Great Job!
+
+**Congratulations! Week 2 is now completed. Great Job!**
 
 
