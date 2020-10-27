@@ -15,8 +15,8 @@ Last week we created a wordpress application that uses mysql as a database. The 
 
 
 - PVs can have three different reclaim policies. The reclaim policy of a PersistentVolume tells the cluster what to do with the volume after it is released. A volume’s reclaim policy is usually either **Retain** or **Delete**
-- **a.** a Retain policy keeps the PV and its data alive even if the PVC is deleted. This enables the data to be reused and a new PVC to be bound to it.
-- **b.** a Delete policy deletes the PV and its data when the PVC is deleted.
+- a Retain policy keeps the PV and its data alive even if the PVC is deleted. This enables the data to be reused and a new PVC to be bound to it.
+- a Delete policy deletes the PV and its data when the PVC is deleted.
 
 - First we create a PVC and see how it is bound to a PV. Choose a StorageClass **ibm-vpc-block-general-purpose**. 
 <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/pvc-test-create.png" width="60%" height="60%">
