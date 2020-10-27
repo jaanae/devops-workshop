@@ -1,6 +1,6 @@
  # Viikko 3
  
- ## Managing storage in OpenShift
+ # Managing storage in OpenShift
   
 
 Last week we created a wordpress application that uses mysql as a database. The mysql server that was deployed in a container did not have storage in itself to store the data from the wordpress. For this reason a persistent volume was requested from openshift with a persistent volume claim. 
@@ -42,7 +42,7 @@ Last week we created a wordpress application that uses mysql as a database. The 
 
 
 
-## Add Persistent Storage to your wordpress application
+# Add Persistent Storage to your mysql application
 
 # 1. Create a PVC
 
@@ -72,5 +72,14 @@ under spec: volumes: replace the emptyDir {} with persistentVolumeClaim: claimNa
 - Save the deployment config and OpenShift will automatically restart the mysql application. 
 
 
+# Add Persistent Storage to your wordpress application
+ 
+The wordpress application needs persistent storage as well for the same reasons as the mysql application. Try to add persistent storage for the wordpress application and if you get stuck, check guidance from the part **Add Persistent Storage to your mysql application**. 
+
+- When you have added persistent storage to mysql and wordpress, check that both of them are up and running. Restarting the applications after adding the storage can take up to 5 minutes, just be patient. 
+- Go to the **Deployment configs** page and check that both of your apps have a status: **1 out of 1 pods**.
+- Next open both applications, scroll down and check that both of them have **Volumes** type: **PVC**.
+
+## If both are running and have volume type PVC, you have succesfully made your application persistent and completed week 3. Yay!
 
  
