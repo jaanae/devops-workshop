@@ -82,6 +82,7 @@ The variables need to match with the values from your mysql.
 + WORDPRESS_DB_USER = MYSQL_USERNAME
 + WORDPRESS_DB_PASSWORD = MYSQL_ROOT_PASSWORD
 + WORDPRESS_DB_NAME = MYSQL_DATABASE
++ WORDPRESS_DB_PORT = 3306
 
 + **Hint!** [Check the environment variables from here](/env-properties-wordpres.png)
 
