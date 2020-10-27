@@ -18,7 +18,10 @@ Last week we created a wordpress application that uses mysql as a database. The 
 - a Retain policy keeps the PV and its data alive even if the PVC is deleted. This enables the data to be reused and a new PVC to be bound to it.
 - a Delete policy deletes the PV and its data when the PVC is deleted.
 
-- First we create a PVC and see how it is bound to a PV. Choose a StorageClass **ibm-vpc-block-general-purpose**. 
+- First we create a PVC and see how it is bound to a PV. Click **Storage** -> **Persistent Volume Claims**
+- Choose a StorageClass **ibm-vpc-block-general-purpose**. 
+- Choose a name of your choise.
+- Set the size as 1 GiB
 <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/pvc-test-create.png" width="60%" height="60%">
 
 
