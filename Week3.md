@@ -54,7 +54,7 @@ Last week we created a wordpress application that uses mysql as a database. The 
 
 <details><summary>Click here for a hint</summary>
 <p>
-```yaml
+ ```python
  spec:
    volumes:
      - name: mysql-1
