@@ -18,7 +18,7 @@ Hint! [Create a project](/Week1.md)
    + **Hint!** [Find a developer view](/Developer-view.png)
 
 2. On the left hand side click on Add.
-   + **Hint!** [Find a Add](/Add.png)
+   + **Hint!** [Find Add](/Add.png)
 
 3. Select Container image.                     
    + **Hint!** [Find a Container image](/Container-image.png)
