@@ -18,17 +18,23 @@ Last week we created a wordpress application that uses mysql as a database. The 
     **a.** a Retain policy keeps the PV and its data alive even if the PVC is deleted. This enables the data to be reused and a new PVC to be bound to it.
     **b.** a Delete policy deletes the PV and its data when the PVC is deleted.
 
-- First we create a PVC and see how it is bound to a PV. Choose a StorageClass with **Delete** reclaim policy.
-<img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/create-pvc.png" width="60%" height="60%">
+- First we create a PVC and see how it is bound to a PV. Choose a StorageClass **ibm-vpc-block-general-purpose**. 
+<img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/pvc-test-create.png" width="60%" height="60%">
 
 
 - When the PVC has been created, the OpenShift will begin to deploy a PersistentVolume to match the PVC.
 - After the PV has been deployed, it will be automatically bound to the PVC and you will see the PVC status change to **Bound**. This means that the PVC now has storage attached to it and an application can start to use the PVC to store it's data. 
 <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/pvc-bound.png" width="60%" height="60%">
 
+
 # 2. Releasing storage / Deleting a Persistent Volume Claim
 
-- storage can be released by deleting the bound PVC. 
+- Storage can be released by deleting the bound PVC. 
+- On the top right, click **Actions** -> **Delete Persistent Volume Claim**
+<img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/pvc-delete.png" width="60%" height="60%">
+
+- Confirm the deletion by clicking delete.
+<img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/pvc-confirm-delete.png" width="60%" height="60%">
 
 
 
