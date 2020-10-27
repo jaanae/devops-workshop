@@ -55,6 +55,7 @@ Now that you have access to the cluster through the interface, it’s time to le
  <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/list.png" width="20%" height="20%">
  
 3. Scroll down the page until you see **oc - OpenShift Command Line Interface (CLI)**
+<img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/Command-line-tool-logged-in.png" width="60%" height="60%">
 
 4. Download and install the oc for your operating system.
 
