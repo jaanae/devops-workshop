@@ -29,4 +29,32 @@ Last week we created a wordpress application that uses mysql as a database. The 
 # 2. Releasing storage / Deleting a Persistent Volume Claim
 
 - storage can be released by deleting the bound PVC. 
+
+
+
+
+## Add Persistent Storage to your wordpress application
+
+# 1. Create a PVC
+
+- The apllication that was created last week does not have persistent storage. Let's fix that.
+- On the left side of the screen, click **Storage** -> **Persistent Volume Claims**
+- Choose **ibm-vpc-block-retain-general-purpose** as the Storage Class. Here we choose a class with **retain** reclaim policy to keep our data intact even if the application is moved or deleted.
+- Set the name as **mysql-pvc** 
+- Set the Size as 1 GiB
+<img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/mysql-pvc.png" width="60%" height="60%">
+
+- Wait for the PVC to change into **bound** state.
+
+# 2. Modify your mysql application to use persistent storage
+
+- Open the **Deployment Configs** and click mysql. 
+- Open the **YAML** tab andg under the **spec: volumes:**, change the **emptyDir {}** to **persistentVolumeClaim: claimName: mysql-pvc**
+
+
+
+
+
+
+
  
