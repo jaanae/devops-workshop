@@ -9,21 +9,24 @@ Last week we created a wordpress application that uses mysql as a database. The 
 
 - OpenShift Administrators can create PVs that can be storage for example from Cloud, NFS server or VMware VMDK storage. Check more about PVs here: https://docs.openshift.com/container-platform/4.4/storage/understanding-persistent-storage.html
 
-- Developers can request storage for their applications by creating a Persistent Volume Claim or PVC. The developers tells the PVC, how much storage the application needs and what type of storage it needs if the OpenShift cluster has multiple storage options. The PVC then automatically grabs and binds the most appropriate Persistent Volume for the application. 
+- Developers can request storage for their applications by creating a PersistentVolumeClaim or PVC. The developers tells the PVC, how much storage the application needs and what type of storage it needs if the OpenShift cluster has multiple storage options. The PVC then automatically grabs and binds the most appropriate PersistentVolume for the application. 
+
+# 1. Requesting storage / Creating a Persistent Volume Claim
 
 
+- PVs can have three different reclaim policies. The reclaim policy of a PersistentVolume tells the cluster what to do with the volume after it is released. A volume’s reclaim policy is usually either **Retain** or **Delete**
+    **a.** a Retain policy keeps the PV and its data alive even if the PVC is deleted. This enables the data to be reused and a new PVC to be bound to it.
+    **b.** a Delete policy deletes the PV and its data when the PVC is deleted.
 
-OpenShift uses the Kubernetes persistent volume (PV) framework to allow cluster administrators to provision persistent storage for a cluster. Developers can use persistent volume claims (PVCs) to request PV resources without having specific knowledge of the underlying storage infrastructure. In this workshop, you work as a developer and you will be using dynamically provisioned persistent volumes. In some cases the persistent volumes are not provisioned dynamically but instead they are provisioned manually by a cluster administrator. With manual provisioning, the developer creates a persistent volume claim and then the administrator will create and assing a persistent volume to bind to the claim. 
-
-reatin reclaim policy allows manual reclamation of the resource for those volume plug-ins that support i
-
-delete reclaim policy deletes both the PersistentVolume object from OpenShift Container Platform and the associated storage asset in external infrastructure, such as AWS EBS or VMware vSphere.
+- First we create a PVC and see how it is bound to a PV. Choose a StorageClass with **Delete** reclaim policy.
+<img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/create-pvc.png" width="60%" height="60%">
 
 
+- When the PVC has been created, the OpenShift will begin to deploy a PersistentVolume to match the PVC.
+- After the PV has been deployed, it will be automatically bound to the PVC and you will see the PVC status change to **Bound**. This means that the PVC now has storage attached to it and an application can start to use the PVC to store it's data. 
+<img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/pvc-bound.png" width="60%" height="60%">
 
-  <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/account-information.png" width="60%" height="60%">
-   - Luo volume 
-   - Luo volumeClaim
-   - MySQL (https://kubernetes.io/docs/tutorials/stateful-application/mysql-wordpress-persistent-volume/)
-   
+# 2. Releasing storage / Deleting a Persistent Volume Claim
+
+- storage can be released by deleting the bound PVC. 
  
