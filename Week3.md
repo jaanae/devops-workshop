@@ -69,8 +69,8 @@ Last week we created a wordpress application that uses mysql as a database. The 
 under spec: volumes: replace the emptyDir {} with persistentVolumeClaim: claimName: mysql-pvc
 </p>
 </details>
-    + [Check the correct yaml here](/mysql-yaml.png)
 
+    + [Check the correct yaml here](/mysql-yaml.png)
 
 - Save the deployment config and OpenShift will automatically restart the mysql application. 
 
