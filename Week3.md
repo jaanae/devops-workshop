@@ -70,7 +70,7 @@ under spec: volumes: replace the emptyDir {} with persistentVolumeClaim: claimNa
 </p>
 </details>
 
-    + [Check the correct yaml here](/mysql-yaml.png)
+   + [Check the correct yaml here](/mysql-yaml.png)
 
 - Save the deployment config and OpenShift will automatically restart the mysql application. 
 
