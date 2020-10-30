@@ -10,7 +10,8 @@ Cloud services and solutions are the future and more and more companies want man
 With this course, you don’t have to be a developer. However, you should understand the basics of programming to get the most out of the workshop. However, if you feel that you are a quick learner and are willing to do a little more background work then you will do really well on the course. In this workshop, you will learn how to make applications run on an orchestration platform called OpenShift. We will guide you from start to finish, so at no point will you be left alone with the problems.
 
 # Practical issues
-The instructors will be available for questions every weekday approximately from 11am to 1pm.
+The instructors will be available for questions in slack every weekday approximately from 11am to 1pm.
+
 
 We will publish every Friday  the assignments for the following week.
 Note that the first week also includes week0, as it instructs you on how to create an IBM cloud ID.
