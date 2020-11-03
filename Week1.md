@@ -120,7 +120,7 @@ As the final part of the Week 1 challenge, you will deploy a snake game running 
 4. Type **aschil/snake** to the image field name and hit enter. This will automatically fetch the snake container from aschil public docker repository.
 <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/game-image-name.png" width="60%" height="60%">
 
-5. Scroll down the page to review the options. The General and Resources fields are automatically filled. Make sure that in the Advanced Options, the box **Create a route to the application** is checked. Then hit Create.
+5. Scroll down the page to review the options. The General and Resources fields are automatically filled. Change the name to a recognizable unique name of your choosing. Make sure that in the Advanced Options, the box **Create a route to the application** is checked. Then hit Create.
 - By checking the checkbox, service and route is automatically created for your application.
 - Service exposes the application interface from inside the container.
 - Route exposes the application interface to the internet so that it can be accessed online.
