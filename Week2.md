@@ -8,7 +8,7 @@ Hint! [Create a project](/Week1.md)
 
 # 2. Ask the instructors to change your namespace priviledges
 
-- The mysql container image that this exercise uses, is built to use the user ID 999. Namespaces/projects with default privileges cannot run containers as users below the ID of 10000. The instructors will change the allowed users ID's to run containers in your namespace from the default value of 1000620000/10000 to 0/10000. This change is needed to run the mysql container as the mysql default user ID 999.
+- The mysql container image that this exercise uses, runs with user ID 999. Namespaces/projects with default privileges cannot run containers as users below the ID of 10000. The instructors will change the allowed users ID's to run containers in your namespace from the OpenShift default value of 1000620000/10000. This change is needed to run the mysql container as the mysql user ID 999.
 - [Slack channel](.slack)
 
 - When your namespace has new priviledges, proceed to the next step.
@@ -49,7 +49,7 @@ If you click on deployment name you will see that our application is not running
 4. Add the following line under it: 
       runAsUser: 999
  
- This will force the container to run as user ID 999 which is the default user ID for mysql. Mysql can also be run as different user IDs but that would require modifying the container which we will leave for another course. How ever if you want to know more about modifying containerized applications you can find more information about it here: https://docs.openshift.com/container-platform/4.4/applications/application_life_cycle_management/odc-editing-applications.html
+ This will force the container to run as user ID 999 which we will be using in this exercise. Mysql can also be run as different user IDs. If you want to know more about modifying containerized applications, including their user IDs, you can find more information about it here: https://docs.openshift.com/container-platform/4.4/applications/application_life_cycle_management/odc-editing-applications.html
  
 + **Hint!** [Check the yml file if you get stuck](/deployment-config.yml) 
 
