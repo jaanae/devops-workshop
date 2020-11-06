@@ -20,7 +20,7 @@ Hint! [Create a project](/Week1.md)
 2. On the left hand side click on Add.
    + **Hint!** [Find Add](/Add.png)
 
-3. Select Container image.                     
+3. Select Container image and remember to check that you are in your own newly created project.                    
    + **Hint!** [Find a Container image](/Container-image.png)
 
 4. Next type mysql in the field, select Deployment config and at the bottom and then click create.
