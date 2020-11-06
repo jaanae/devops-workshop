@@ -9,7 +9,6 @@ Hint! [Create a project](/Week1.md)
 # 2. Ask the instructors to change your namespace priviledges
 
 - The mysql container image that this exercise uses, runs with user ID 999. Namespaces/projects with default privileges cannot run containers as users below the ID of 10000. The instructors will change the allowed users ID's to run containers in your namespace from the OpenShift default value of 1000620000/10000. This change is needed to run the mysql container as the mysql user ID 999.
-- [Slack channel](.slack)
 
 - When your namespace has new priviledges, proceed to the next step.
 
