@@ -32,6 +32,7 @@ Last week we created a wordpress application that uses mysql as a database. The 
 
 - When the PVC has been created, the OpenShift will begin to deploy a PersistentVolume to match the PVC.
 - After the PV has been deployed, it will be automatically bound to the PVC and you will see the PVC status change to **Bound**. This means that the PVC now has storage attached to it and an application can start to use the PVC to store it's data. 
+- The Binding process can take a few minutes so be patient :)
 <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/pvc-bound.png" width="60%" height="60%">
 
 
