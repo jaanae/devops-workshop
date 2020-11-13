@@ -22,9 +22,11 @@ Last week we created a wordpress application that uses mysql as a database. The 
 
 - First we create a PVC and see how it is bound to a PV. Click **Storage** -> **Persistent Volume Claims**
 - Make sure you are in your own project that was created in week 2.
+- Click **Create Persistent Volume Claim**
 - Choose a StorageClass **ibm-vpc-block-general-purpose**. 
 - Choose a name of your choise.
 - Set the size as 1 GiB
+- Click Create.
 <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/pvc-test-create.png" width="60%" height="60%">
 
 
