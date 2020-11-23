@@ -74,7 +74,7 @@ Now if you have time and energy, you can create a new application of your choice
 More detailed reading about OpenShift can be found in the official RedHat OpenShift Documentation: https://docs.openshift.com/container-platform/4.6/welcome/index.html
 
 
-
+- Tell your peers in the slack when you have completed the course and if you have created your own application, feel free to share the link in the slack with other mimmitkoodaa applicants :)
 
 
 
