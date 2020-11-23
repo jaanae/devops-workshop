@@ -57,7 +57,7 @@ The order that the components are made basically does not matter but we will be 
 
 # 5. Confirming the application
 
-- Now that the application is up and running, we can confirmed that it works by clicking the route link and seeing the httpd welcome page.
+- Now that the application is up and running, we confirmed that it works by clicking the route link and seeing the httpd welcome page.
 - Lets check that the Persistent Volume is correctly mounted inside the container.
 - Open the Pod page and go to the **Terminal** tab.
 - Type in command **df -h** and you should see a volume sized about 10Gib mounted in /var/www/html
