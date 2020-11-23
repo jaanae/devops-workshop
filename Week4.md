@@ -71,7 +71,7 @@ The order that the components are made basically does not matter but we will be 
 Now if you have time and energy, you can create a new application of your choice in the OpenShift cluster. Be aware though that the cluster will be deleted in a few weeks and we will be monitoring that created applications do not contain anything illegal or otherwise not "good" things like bitcoin miners etc. Happy creating :)
 - we will inform in the Slack channel when the cluster will be deleted!
 
-
+More detailed reading about OpenShift can be found in the official RedHat OpenShift Documentation: https://docs.openshift.com/container-platform/4.6/welcome/index.html
 
 
 
