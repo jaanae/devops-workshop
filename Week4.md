@@ -51,6 +51,7 @@ The order that the components are made basically does not matter but we will be 
    + **Hint!** [Check how to create the Route here](/create-route.png)
    + **Hint!** [Check the route details here](/route-details.png)
 - The **Hostname** of the route tells the system where to route the traffic. It needs to be in the form: **ServiceName-ProjectName.OpenShiftClusterAddress**
+- In our case the **OpenShiftClusterAddress** can be seen in the OpenShift web address. it is the part from **ocp43-workshop..........domain.cloud**
 - Click create and on the **Route Overview** page, click the **Location** link. This is what you should see:
 <img src="https://raw.githubusercontent.com/jaanae/devops-workshop/master/httpd-page.png" width="60%" height="60%">
 - If you get any errors or a message that says "Application not found" check that the route **HostName** is correct.
